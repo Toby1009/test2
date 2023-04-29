@@ -32,7 +32,9 @@ Game::Game(MainWindow *parent) :
     ui->setupUi(this);
     mainWindow = parent;
 }
-
+//Intent:set button down
+//Pre:gamboard
+//Pos:set button down
 void Game::setButtonDown()
 {
     for(int i=0;i<row;i++)
